@@ -83,7 +83,7 @@ export default function Services() {
           Full-Service Digital <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600">Marketing Solutions</span>
         </h1>
         
-        <p className="text-xl text-slate-600 dark:text-slate-300 leading-relaxed max-w-lg">
+        <p className="text-xl text-slate-600 dark:text-slate-100 leading-relaxed max-w-lg">
           From SEO to programmatic display—we provide the precision technology 
           your B2B enterprise needs to scale.
         </p>
@@ -98,7 +98,7 @@ export default function Services() {
           </a>
           <Link
             href="/case-studies"
-            className="inline-flex items-center gap-2 px-8 py-4 border border-slate-200 dark:border-slate-800 text-slate-700 dark:text-slate-300 rounded-xl hover:bg-slate-50 dark:hover:bg-slate-900 transition-all"
+            className="inline-flex items-center gap-2 px-8 py-4 border border-slate-200 dark:border-slate-800 text-slate-700 dark:text-slate-100 rounded-xl hover:bg-slate-50 dark:hover:bg-slate-900 transition-all"
           >
             <span>View Case Studies</span>
           </Link>
@@ -154,7 +154,7 @@ export default function Services() {
             <h2 className="text-4xl lg:text-5xl mb-6 dark:text-white">
               Our Services
             </h2>
-            <p className="text-xl text-slate-600 dark:text-slate-300 max-w-3xl mx-auto">
+            <p className="text-xl text-slate-600 dark:text-slate-100 max-w-3xl mx-auto">
               Explore our comprehensive suite of digital marketing services, 
               organized by category for your convenience
             </p>
@@ -199,7 +199,7 @@ export default function Services() {
                             {service.title}
                           </h4>
                           
-                          <p className="text-slate-600 dark:text-slate-300 leading-relaxed mb-4">
+                          <p className="text-slate-600 dark:text-slate-100 leading-relaxed mb-4">
                             {service.description}
                           </p>
                           
@@ -257,7 +257,7 @@ export default function Services() {
               <h2 className="text-4xl lg:text-5xl mb-6 dark:text-white">
                 How We Work With You
               </h2>
-              <p className="text-xl text-slate-600 dark:text-slate-300 mb-8 leading-relaxed">
+              <p className="text-xl text-slate-600 dark:text-slate-100 mb-8 leading-relaxed">
                 Whether you need a single service or a comprehensive multi-channel strategy, 
                 we customize our approach to fit your unique business goals and budget.
               </p>
@@ -274,7 +274,7 @@ export default function Services() {
       Single Service Execution
     </h3>
     {/* Use slate-300 (light gray) instead of slate-600 (dark gray) */}
-    <p className="text-slate-600 dark:text-slate-300 leading-relaxed">
+    <p className="text-slate-600 dark:text-slate-100 leading-relaxed">
       Focused expertise for specific project needs. We execute individual 
       services with dedicated precision.
     </p>
@@ -288,7 +288,7 @@ export default function Services() {
                     <h3 className="text-lg font-medium text-slate-900 dark:text-white mb-2">
                       Multi-Channel Campaigns
                     </h3>
-                    <p className="text-slate-600 dark:text-slate-300">
+                    <p className="text-slate-600 dark:text-slate-100">
                       Combine multiple services for a comprehensive strategy that reaches your audience 
                       across all touchpoints.
                     </p>
@@ -306,7 +306,7 @@ export default function Services() {
       Full-Service Partnership
     </h3>
     {/* Use slate-300 for a crisp, clean look on dark bg */}
-    <p className="text-slate-600 dark:text-slate-300">
+    <p className="text-slate-600 dark:text-slate-100">
       Let us handle all your digital marketing needs. We become an extension of your 
       team, managing everything from strategy to execution.
     </p>

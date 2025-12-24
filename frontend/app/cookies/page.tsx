@@ -99,12 +99,12 @@ export default function CookiePolicy() {
 
         {/* Introduction */}
         <div className="prose prose-slate dark:prose-invert max-w-none mb-12">
-          <p className="text-lg text-slate-600 dark:text-slate-300 leading-relaxed mb-4">
+          <p className="text-lg text-slate-600 dark:text-slate-100 leading-relaxed mb-4">
             This Cookie Policy explains how EchoShift ("we", "us", or "our") uses cookies and similar technologies 
             when you visit our website. It explains what these technologies are, why we use them, and your rights 
             to control our use of them.
           </p>
-          <p className="text-lg text-slate-600 dark:text-slate-300 leading-relaxed">
+          <p className="text-lg text-slate-600 dark:text-slate-100 leading-relaxed">
             By continuing to use our website, you consent to our use of cookies as described in this policy.
           </p>
         </div>
@@ -115,12 +115,12 @@ export default function CookiePolicy() {
             <Cookie className="h-6 w-6 text-blue-600 dark:text-blue-400" />
             What Are Cookies?
           </h2>
-          <p className="text-slate-600 dark:text-slate-300 leading-relaxed mb-4">
+          <p className="text-slate-600 dark:text-slate-100 leading-relaxed mb-4">
             Cookies are small text files that are placed on your device when you visit a website. They are widely 
             used to make websites work more efficiently and provide information to website owners. Cookies allow 
             websites to remember your actions and preferences over time.
           </p>
-          <p className="text-slate-600 dark:text-slate-300 leading-relaxed">
+          <p className="text-slate-600 dark:text-slate-100 leading-relaxed">
             Similar technologies include web beacons, pixels, and local storage. These technologies serve similar 
             purposes to cookies and are also covered by this policy.
           </p>
@@ -145,11 +145,11 @@ export default function CookiePolicy() {
                       {type.title}
                     </h3>
                   </div>
-                  <p className="text-slate-600 dark:text-slate-300 leading-relaxed mb-3">
+                  <p className="text-slate-600 dark:text-slate-100 leading-relaxed mb-3">
                     {type.description}
                   </p>
                   <div className={`p-4 ${colors.accent} rounded-lg border`}>
-                    <p className="text-sm font-medium text-slate-700 dark:text-slate-300 mb-2">Examples:</p>
+                    <p className="text-sm font-medium text-slate-700 dark:text-slate-100 mb-2">Examples:</p>
                     <ul className="space-y-1">
                       {type.examples.map((example, eIndex) => (
                         <li key={eIndex} className="flex items-start gap-2 text-sm text-slate-600 dark:text-slate-400">
@@ -173,7 +173,7 @@ export default function CookiePolicy() {
           
           <div className="p-6 bg-slate-50 dark:bg-slate-900 rounded-xl border border-slate-200 dark:border-slate-800">
             <h3 className="text-xl mb-3 dark:text-white">Browser Settings</h3>
-            <p className="text-slate-600 dark:text-slate-300 leading-relaxed mb-4">
+            <p className="text-slate-600 dark:text-slate-100 leading-relaxed mb-4">
               Most web browsers allow you to control cookies through their settings. You can set your browser to 
               refuse cookies or delete certain cookies. Generally, you can find these settings in the "Options" 
               or "Preferences" menu of your browser.
@@ -191,7 +191,7 @@ export default function CookiePolicy() {
               <Info className="h-5 w-5 text-amber-600 dark:text-amber-400" />
               Important Note
             </h3>
-            <p className="text-slate-600 dark:text-slate-300 leading-relaxed">
+            <p className="text-slate-600 dark:text-slate-100 leading-relaxed">
               Please note that if you disable or refuse cookies, some parts of our website may become inaccessible 
               or not function properly. Strictly necessary cookies cannot be disabled as they are essential for 
               the website to function.
@@ -202,12 +202,12 @@ export default function CookiePolicy() {
         {/* Third-Party Cookies */}
         <div className="mb-12 p-6 bg-purple-50 dark:bg-purple-950/30 rounded-xl border border-purple-200 dark:border-purple-900">
           <h3 className="text-xl mb-3 dark:text-white">Third-Party Cookies</h3>
-          <p className="text-slate-600 dark:text-slate-300 leading-relaxed mb-4">
+          <p className="text-slate-600 dark:text-slate-100 leading-relaxed mb-4">
             In addition to our own cookies, we may also use various third-party cookies to report usage statistics, 
             deliver advertisements, and provide social media features. These third parties may collect information 
             about your online activities over time and across different websites.
           </p>
-          <div className="space-y-2 text-slate-600 dark:text-slate-300">
+          <div className="space-y-2 text-slate-600 dark:text-slate-100">
             <p><strong>Google Analytics:</strong> Helps us understand how visitors use our website</p>
             <p><strong>Social Media Platforms:</strong> Enable social sharing and tracking</p>
             <p><strong>Advertising Networks:</strong> Deliver targeted advertisements based on your interests</p>
@@ -220,7 +220,7 @@ export default function CookiePolicy() {
         {/* Updates Section */}
         <div className="mb-12 p-6 bg-blue-50 dark:bg-blue-950/30 rounded-xl border border-blue-200 dark:border-blue-900">
           <h3 className="text-xl mb-3 dark:text-white">Updates to This Policy</h3>
-          <p className="text-slate-600 dark:text-slate-300 leading-relaxed">
+          <p className="text-slate-600 dark:text-slate-100 leading-relaxed">
             We may update this Cookie Policy from time to time to reflect changes in our practices or for other 
             operational, legal, or regulatory reasons. We encourage you to review this policy periodically to 
             stay informed about our use of cookies.
@@ -235,10 +235,10 @@ export default function CookiePolicy() {
             </div>
             <div>
               <h3 className="text-xl mb-2 dark:text-white">Questions About Cookies?</h3>
-              <p className="text-slate-600 dark:text-slate-300 leading-relaxed mb-3">
+              <p className="text-slate-600 dark:text-slate-100 leading-relaxed mb-3">
                 If you have any questions about our use of cookies or this Cookie Policy, please contact us at:
               </p>
-              <div className="space-y-1 text-slate-600 dark:text-slate-300">
+              <div className="space-y-1 text-slate-600 dark:text-slate-100">
                 <p>Email: <a href="mailto:privacy@echoshift.agency" className="text-blue-600 dark:text-blue-400 hover:underline">privacy@echoshift.agency</a></p>
                 <p>Phone: +1 (555) 123-4567</p>
                 <p>Address: 123 Innovation Drive, San Francisco, CA 94105</p>

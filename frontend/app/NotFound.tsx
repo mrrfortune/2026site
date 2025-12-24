@@ -27,7 +27,7 @@ export default function NotFound() { // Removed 'export function' to use as defa
         
         <button
           onClick={() => window.history.back()}
-          className="inline-flex items-center justify-center gap-2 px-8 py-4 border-2 border-slate-200 dark:border-slate-800 text-slate-700 dark:text-slate-300 rounded-xl hover:border-blue-600 dark:hover:border-blue-400 transition-all"
+          className="inline-flex items-center justify-center gap-2 px-8 py-4 border-2 border-slate-200 dark:border-slate-800 text-slate-700 dark:text-slate-100 rounded-xl hover:border-blue-600 dark:hover:border-blue-400 transition-all"
         >
           <ArrowLeft className="h-5 w-5" />
           <span>Go Back</span>
@@ -45,7 +45,7 @@ export default function NotFound() { // Removed 'export function' to use as defa
               className="p-6 bg-white dark:bg-slate-900 rounded-xl border border-slate-200 dark:border-slate-800 hover:shadow-lg hover:border-blue-600 dark:hover:border-blue-400 transition-all group"
             >
               <Icon className="h-6 w-6 text-blue-600 dark:text-blue-400 mb-3 mx-auto group-hover:scale-110 transition-transform" />
-              <span className="text-slate-700 dark:text-slate-300 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
+              <span className="text-slate-700 dark:text-slate-100 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
                 {link.label}
               </span>
             </Link>

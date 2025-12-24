@@ -74,7 +74,7 @@ export default function PrivacyPolicy(){
 
         {/* Introduction */}
         <div className="prose prose-slate dark:prose-invert max-w-none mb-12">
-          <p className="text-lg text-slate-600 dark:text-slate-300 leading-relaxed">
+          <p className="text-lg text-slate-600 dark:text-slate-100 leading-relaxed">
             At EchoShift, we take your privacy seriously. This Privacy Policy explains how we collect, use, disclose, 
             and safeguard your information when you visit our website or use our services. Please read this privacy 
             policy carefully. If you do not agree with the terms of this privacy policy, please do not access the site.
@@ -97,7 +97,7 @@ export default function PrivacyPolicy(){
                 </div>
                 <div className="space-y-4">
                   {section.content.map((paragraph, pIndex) => (
-                    <p key={pIndex} className="text-slate-600 dark:text-slate-300 leading-relaxed">
+                    <p key={pIndex} className="text-slate-600 dark:text-slate-100 leading-relaxed">
                       {paragraph}
                     </p>
                   ))}
@@ -110,11 +110,11 @@ export default function PrivacyPolicy(){
         {/* Cookies Section */}
         <div className="mt-12 p-6 bg-blue-50 dark:bg-blue-950/30 rounded-xl border border-blue-200 dark:border-blue-900">
           <h3 className="text-xl mb-3 dark:text-white">Cookies and Tracking Technologies</h3>
-          <p className="text-slate-600 dark:text-slate-300 leading-relaxed mb-3">
+          <p className="text-slate-600 dark:text-slate-100 leading-relaxed mb-3">
             We use cookies and similar tracking technologies to track activity on our service and hold certain information. 
             Cookies are files with a small amount of data which may include an anonymous unique identifier.
           </p>
-          <p className="text-slate-600 dark:text-slate-300 leading-relaxed">
+          <p className="text-slate-600 dark:text-slate-100 leading-relaxed">
             You can instruct your browser to refuse all cookies or to indicate when a cookie is being sent. However, 
             if you do not accept cookies, you may not be able to use some portions of our service. For more information, 
             please see our <a href="/cookie-policy" className="text-blue-600 dark:text-blue-400 underline underline-offset-2">Cookie Policy</a>.
@@ -129,10 +129,10 @@ export default function PrivacyPolicy(){
             </div>
             <div>
               <h3 className="text-xl mb-2 dark:text-white">Questions About This Policy?</h3>
-              <p className="text-slate-600 dark:text-slate-300 leading-relaxed mb-3">
+              <p className="text-slate-600 dark:text-slate-100 leading-relaxed mb-3">
                 If you have questions or comments about this Privacy Policy, please contact us at:
               </p>
-              <div className="space-y-1 text-slate-600 dark:text-slate-300">
+              <div className="space-y-1 text-slate-600 dark:text-slate-100">
                 <p>Email: <a href="mailto:privacy@echoshift.agency" className="text-blue-600 dark:text-blue-400 hover:underline">privacy@echoshift.agency</a></p>
                 <p>Phone: +1 (555) 123-4567</p>
                 <p>Address: 123 Innovation Drive, San Francisco, CA 94105</p>

@@ -76,7 +76,7 @@ export default function TermsOfService() {
 
         {/* Introduction */}
         <div className="prose prose-slate dark:prose-invert max-w-none mb-12">
-          <p className="text-lg text-slate-600 dark:text-slate-300 leading-relaxed">
+          <p className="text-lg text-slate-600 dark:text-slate-100 leading-relaxed">
             Welcome to EchoShift. These Terms of Service govern your use of our website located at echoshift.agency 
             and our services. By accessing or using our website and services, you agree to be bound by these terms. 
             Please read them carefully before proceeding.
@@ -99,7 +99,7 @@ export default function TermsOfService() {
                 </div>
                 <div className="space-y-4">
                   {section.content.map((paragraph, pIndex) => (
-                    <p key={pIndex} className="text-slate-600 dark:text-slate-300 leading-relaxed">
+                    <p key={pIndex} className="text-slate-600 dark:text-slate-100 leading-relaxed">
                       {paragraph}
                     </p>
                   ))}
@@ -115,7 +115,7 @@ export default function TermsOfService() {
             <AlertCircle className="h-5 w-5 text-amber-600 dark:text-amber-400" />
             Acceptable Use Policy
           </h3>
-          <div className="space-y-3 text-slate-600 dark:text-slate-300">
+          <div className="space-y-3 text-slate-600 dark:text-slate-100">
             <p className="leading-relaxed">
               You agree not to use our services to:
             </p>
@@ -135,12 +135,12 @@ export default function TermsOfService() {
         {/* Service Changes Section */}
         <div className="mt-12 p-6 bg-blue-50 dark:bg-blue-950/30 rounded-xl border border-blue-200 dark:border-blue-900">
           <h3 className="text-xl mb-3 dark:text-white">Service Modifications and Termination</h3>
-          <p className="text-slate-600 dark:text-slate-300 leading-relaxed mb-3">
+          <p className="text-slate-600 dark:text-slate-100 leading-relaxed mb-3">
             We reserve the right to modify or discontinue, temporarily or permanently, our services (or any part thereof) 
             with or without notice. We shall not be liable to you or any third party for any modification, suspension, 
             or discontinuance of the services.
           </p>
-          <p className="text-slate-600 dark:text-slate-300 leading-relaxed">
+          <p className="text-slate-600 dark:text-slate-100 leading-relaxed">
             We may terminate or suspend your access to our services immediately, without prior notice or liability, 
             for any reason whatsoever, including without limitation if you breach the Terms of Service.
           </p>
@@ -154,10 +154,10 @@ export default function TermsOfService() {
             </div>
             <div>
               <h3 className="text-xl mb-2 dark:text-white">Questions About These Terms?</h3>
-              <p className="text-slate-600 dark:text-slate-300 leading-relaxed mb-3">
+              <p className="text-slate-600 dark:text-slate-100 leading-relaxed mb-3">
                 If you have any questions about these Terms of Service, please contact us at:
               </p>
-              <div className="space-y-1 text-slate-600 dark:text-slate-300">
+              <div className="space-y-1 text-slate-600 dark:text-slate-100">
                 <p>Email: <a href="mailto:legal@echoshift.agency" className="text-purple-600 dark:text-purple-400 hover:underline">legal@echoshift.agency</a></p>
                 <p>Phone: +1 (555) 123-4567</p>
                 <p>Address: 123 Innovation Drive, San Francisco, CA 94105</p>

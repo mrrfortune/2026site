@@ -61,7 +61,7 @@ export default function Home() {
               <h2 className="text-4xl lg:text-5xl dark:text-white">
                 Why Choose EchoShift?
               </h2>
-              <p className="text-xl text-slate-600 dark:text-slate-300">
+              <p className="text-xl text-slate-600 dark:text-slate-100">
                 We're a full-service digital agency with the expertise, technology, and creativity 
                 to help your business thrive online.
               </p>
@@ -80,7 +80,7 @@ export default function Home() {
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                       </svg>
                     </div>
-                    <span className="text-slate-700 dark:text-slate-300">{item}</span>
+                    <span className="text-slate-700 dark:text-slate-100">{item}</span>
                   </li>
                 ))}
               </ul>

@@ -124,7 +124,7 @@ export default function About() {
             <h1 className="text-4xl lg:text-6xl mb-6 dark:text-white">
               We're Building the Future of Digital Advertising
             </h1>
-            <p className="text-xl text-slate-600 dark:text-slate-300 leading-relaxed mb-8">
+            <p className="text-xl text-slate-600 dark:text-slate-100 leading-relaxed mb-8">
               EchoShift is a full-service digital advertising agency on a mission to help businesses 
               achieve extraordinary growth through data-driven marketing strategies and innovative technology.
             </p>
@@ -138,7 +138,7 @@ export default function About() {
               </a>
               <Link
                 href="/casestudy"
-                className="inline-flex items-center gap-2 px-8 py-4 border-2 border-slate-200 dark:border-slate-800 text-slate-700 dark:text-slate-300 rounded-xl hover:border-blue-600 dark:hover:border-blue-400 transition-all"
+                className="inline-flex items-center gap-2 px-8 py-4 border-2 border-slate-200 dark:border-slate-800 text-slate-700 dark:text-slate-100 rounded-xl hover:border-blue-600 dark:hover:border-blue-400 transition-all"
               >
                 <span>View Case Studies</span>
               </Link>
@@ -182,7 +182,7 @@ export default function About() {
               <Target className="h-6 w-6 text-white" />
             </div>
             <h2 className="text-3xl mb-4 dark:text-white">Our Mission</h2>
-            <p className="text-lg text-slate-600 dark:text-slate-300 leading-relaxed">
+            <p className="text-lg text-slate-600 dark:text-slate-100 leading-relaxed">
               To empower businesses of all sizes with enterprise-level digital marketing strategies 
               that drive measurable growth. We believe every business deserves access to world-class 
               marketing expertise, innovative technology, and transparent, results-driven partnerships.
@@ -193,7 +193,7 @@ export default function About() {
               <TrendingUp className="h-6 w-6 text-white" />
             </div>
             <h2 className="text-3xl mb-4 dark:text-white">Our Vision</h2>
-            <p className="text-lg text-slate-600 dark:text-slate-300 leading-relaxed">
+            <p className="text-lg text-slate-600 dark:text-slate-100 leading-relaxed">
               To become the most trusted and innovative digital advertising partner in the industry, 
               known for delivering exceptional results, pioneering new technologies, and fostering 
               long-term relationships built on integrity, transparency, and mutual success.
@@ -208,7 +208,7 @@ export default function About() {
           <h2 className="text-4xl lg:text-5xl mb-4 dark:text-white">
             Our Core Values
           </h2>
-          <p className="text-xl text-slate-600 dark:text-slate-300 max-w-2xl mx-auto">
+          <p className="text-xl text-slate-600 dark:text-slate-100 max-w-2xl mx-auto">
             The principles that guide everything we do
           </p>
         </div>
@@ -226,7 +226,7 @@ export default function About() {
                 <h3 className="text-2xl mb-3 dark:text-white">
                   {value.title}
                 </h3>
-                <p className="text-slate-600 dark:text-slate-300 leading-relaxed">
+                <p className="text-slate-600 dark:text-slate-100 leading-relaxed">
                   {value.description}
                 </p>
               </div>
@@ -242,7 +242,7 @@ export default function About() {
             <h2 className="text-4xl lg:text-5xl mb-4 dark:text-white">
               Our Journey
             </h2>
-            <p className="text-xl text-slate-600 dark:text-slate-300">
+            <p className="text-xl text-slate-600 dark:text-slate-100">
               Growing from a startup to an industry leader
             </p>
           </div>
@@ -262,7 +262,7 @@ export default function About() {
                   <h3 className="text-2xl mb-2 dark:text-white">
                     {item.title}
                   </h3>
-                  <p className="text-slate-600 dark:text-slate-300 leading-relaxed">
+                  <p className="text-slate-600 dark:text-slate-100 leading-relaxed">
                     {item.description}
                   </p>
                 </div>
@@ -278,7 +278,7 @@ export default function About() {
           <h2 className="text-4xl lg:text-5xl mb-4 dark:text-white">
             Meet Our Leadership Team
           </h2>
-          <p className="text-xl text-slate-600 dark:text-slate-300 max-w-2xl mx-auto">
+          <p className="text-xl text-slate-600 dark:text-slate-100 max-w-2xl mx-auto">
             Experienced professionals dedicated to your success
           </p>
         </div>
@@ -384,7 +384,7 @@ export default function About() {
           <h2 className="text-3xl lg:text-4xl mb-4 dark:text-white">
             Ready to Start Your Growth Journey?
           </h2>
-          <p className="text-xl text-slate-600 dark:text-slate-300 mb-8 max-w-2xl mx-auto">
+          <p className="text-xl text-slate-600 dark:text-slate-100 mb-8 max-w-2xl mx-auto">
             Let's discuss how EchoShift can help you achieve your business goals with data-driven digital marketing strategies.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -397,7 +397,7 @@ export default function About() {
             </a>
             <a
               href="mailto:hello@echoshift.agency"
-              className="inline-flex items-center justify-center gap-2 px-8 py-4 border-2 border-slate-200 dark:border-slate-800 text-slate-700 dark:text-slate-300 rounded-xl hover:border-blue-600 dark:hover:border-blue-400 transition-all"
+              className="inline-flex items-center justify-center gap-2 px-8 py-4 border-2 border-slate-200 dark:border-slate-800 text-slate-700 dark:text-slate-100 rounded-xl hover:border-blue-600 dark:hover:border-blue-400 transition-all"
             >
               <span>Contact Our Team</span>
             </a>
