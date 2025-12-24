@@ -64,11 +64,12 @@ export function Footer() {
           <p className="text-slate-400 text-sm">
             © {currentYear} AdVantage AI. All rights reserved.
           </p>
+
           <div className="flex gap-6 text-slate-400 text-sm">
             {/* UPDATED TO USE NEXT.JS LINK */}
-            <Link href="/privacypolicy" className="hover:text-white transition-colors">Privacy Policy</Link>
-            <Link href="/termsofservice" className="hover:text-white transition-colors">Terms of Service</Link>
-            <Link href="/cookies" className="hover:text-white transition-colors">Cookie Policy</Link>
+            <Link href="/privacypolicy" className="text-slate-500 hover:text-slate-900 dark:text-slate-400 dark:hover:text-white transition-colors">Privacy Policy</Link>
+            <Link href="/termsofservice" className="text-slate-500 hover:text-slate-900 dark:text-slate-400 dark:hover:text-white transition-colors">Terms of Service</Link>
+            <Link href="/cookies" className="text-slate-500 hover:text-slate-900 dark:text-slate-400 dark:hover:text-white transition-colors">Cookie Policy</Link>
           </div>
         </div>
       </div>

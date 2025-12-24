@@ -1,8 +1,9 @@
+import "./globals.css";
 import { ThemeProvider } from './components/theme-provider';
 import { Header } from "./components/Header"; 
 import { Footer } from "./components/Footer"; 
 import { Toaster } from 'sonner';
-import "./globals.css";
+
 
 export const metadata = {
   title: "Harbatch Advertising",
