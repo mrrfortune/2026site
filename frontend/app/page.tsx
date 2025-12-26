@@ -8,8 +8,8 @@ import { Services } from './components/Services';
 import { ThemeProvider } from './components/theme-provider'
 import { AiProblemSolver } from './components/AiProblemSolver';
 import { Footer } from './components/Footer';
-
-
+import gsap from "gsap";
+import { useGSAP } from "@gsap/react";
 
 export default function Home() {
   const heroRef = useRef<HTMLDivElement>(null);
@@ -33,6 +33,36 @@ export default function Home() {
       aiSolverRef.current.scrollIntoView({ behavior: 'smooth' });
     }
   };
+  const container = useRef(null);
+
+  useGSAP(() => {
+    // A professional "B2B" entrance: subtle, fast, and smooth
+    gsap.from(".animate-me", { 
+      opacity: 0, 
+      y: 20, 
+      stagger: 0.2, 
+      duration: 0.8, 
+      ease: "power2.out" 
+    });
+    const tl = gsap.timeline();
+    
+    tl.from(".hero-title", { 
+      opacity: 0, 
+      y: 30, 
+      duration: 1, 
+      ease: "back.out(1.7)" 
+    })
+    .from(".hero-subtext", { 
+      opacity: 0, 
+      y: 20, 
+      duration: 0.8 
+    }, "-=0.5") // Starts 0.5s before the previous animation ends
+    .from(".hero-cta", { 
+      scale: 0, 
+      opacity: 0, 
+      duration: 0.5 
+    }, "-=0.3");
+  }, { scope: container }); // Scoping prevents GSAP from searching the whole site
   return (
    
     <div>

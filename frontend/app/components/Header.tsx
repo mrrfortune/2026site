@@ -70,9 +70,6 @@ export function Header() {
               Get Started
             </Button>
           </div>
-<button className="bg-red-500 dark:bg-green-500 p-4 text-white">
-  I should be RED in light mode and GREEN in dark mode
-</button>
           {/* Mobile Menu Toggle */}
           <div className="flex md:hidden items-center gap-4">
             <ThemeToggle />
